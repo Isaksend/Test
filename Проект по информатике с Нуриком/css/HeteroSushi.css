@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Snap ITC';
+  src: url('snap-itc-maisfontes.9d5b/snap-itc.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  
+  /* Только если нужна поддержка старых Android, иначе закомментировать */
+}
+a {
+  text-decoration: none;
+}
+body {
+  background: #93CCC9;
+}
+body header {
+  display: grid;
+  grid-template-columns: 20.57291% 32.03125%;
+  grid-column-gap: 47.39584%;
+}
+body header .LogoBlock {
+  margin-left: 6.71875%;
+  margin-top: 12px;
+  display: flex;
+  cursor: pointer;
+}
+body header .LogoBlock .LogoName {
+  padding-top: 20px;
+  font-family: 'Snap ITC';
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+  margin-left: 14px;
+}
+body header .Menu {
+  display: flex;
+  margin-top: 12px;
+}
+body header .Menu .MenuItem {
+  font-family: 'Snap ITC';
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+  margin-right: 8%;
+  margin-top: 20px;
+}
